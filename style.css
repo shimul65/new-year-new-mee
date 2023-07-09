@@ -165,3 +165,81 @@ main {
     font-weight: 700;
     margin-bottom: 24px;
 }
+
+footer {
+    color: #FFF;
+    background-color: #151414;
+    max-height: 90%;
+}
+
+.foot-colm {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 130px 15%;
+    /* width: 100%; */
+    /* margin: auto; */
+}
+
+.foot-colm1 {
+    max-width: 500px;
+    max-height: 100%;
+    /* border: 2px solid white; */
+    /* padding: 130px 15%; */
+}
+
+.foot-colm1-desc {
+    /* margin: 12px 0px; */
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.foot-colm1-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.social-link img {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.foot-colm2 {
+    /* display: block; */
+    /* display: flex; */
+    max-width: 500px;
+    max-height: 100%;
+    /* border: 2px solid white; */
+    /* padding: 130px 15%; */
+}
+
+.foot-colm2-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+form>input {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #eeeaea;
+    border: 0px;
+    width: 400px;
+    /* max-width: 500px; */
+    background: #151414;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}
+
+.foot-btn {
+    border-radius: 8px;
+    background: #005FAC;
+    color: white;
+}
